@@ -29,4 +29,9 @@ public class Inventory : MonoBehaviour
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
     }
+
+    private void OnMouseUp()
+    {
+        Debug.Log("Inventory:");
+    }
 }
