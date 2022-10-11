@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SafeButton : MonoBehaviour
 {
-    public string _safeCode;
+    public string safeCode;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +19,6 @@ public class SafeButton : MonoBehaviour
 
     private void OnMouseUp()
     {
-        FindObjectOfType<Safe>().appendString(_safeCode);
+        FindObjectOfType<Safe>().appendString(safeCode);
     }
 }
