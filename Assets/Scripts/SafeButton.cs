@@ -19,6 +19,6 @@ public class SafeButton : MonoBehaviour
 
     private void OnMouseUp()
     {
-        FindObjectOfType<Safe>().appendString(safeCode);
+        FindObjectOfType<Safe>().AppendString(safeCode);
     }
 }

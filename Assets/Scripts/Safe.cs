@@ -19,7 +19,7 @@ public class Safe : MonoBehaviour
         
     }
 
-    public void appendString(string str)
+    public void AppendString(string str)
     {
         _enteredCode += str;
         Debug.Log("enteredCode: " + _enteredCode);
